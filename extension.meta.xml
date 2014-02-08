@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extension id="iframe_panel" xmlns="http://symphony-cms.com/schemas/extension/1.0">
+	<name>Iframe Panel</name>
+	<description>Add an iframe to the dashboard. Unlike HTML Block, this does not process and cache the contents (for Piwik).</description>
+	<repo type="github"></repo>
+	<types>
+		<type>Dashboard Panel</type>
+	</types>
+	<authors>
+		<author>
+			<name>Aonghus Storey</name>
+			<website></website>
+		</author>
+	</authors>
+	<releases>
+		<release version="1.0" date="2013-09-28" min="2.3.3" />
+	</releases>
+	<dependencies>
+		<dependency version="1.6">dashboard</dependency>
+	</dependencies>
+</extension>
